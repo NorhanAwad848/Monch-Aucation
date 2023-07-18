@@ -1,0 +1,73 @@
+.box{
+    position:relative;
+    
+}
+
+.input {
+    padding: 10px;
+    width: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: #ffd52d;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+
+    width: 879px;
+    max-width: 100%;
+    background: bla;
+    border-radius: 80px;
+}
+
+.icon{
+    color: #ffd52d;
+    position: relative;
+
+}
+.main-header{
+    background-color: #0c113a;
+    color : #ffd52d ;
+    display : flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; 
+    max-width: 100%;
+}
+
+.main-header .logo{
+    width: 20%;
+}
+
+.main-header .logo img{
+    width: 100px;
+    height: 100px;
+    object-fit:contain;
+}
+
+.main-header nav{
+    width : 80%;
+}
+
+.main-header nav ul{
+    list-style-type: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: 24px bold;
+}
+
+.main-header nav ul li{
+    display:inline-block;
+    padding: 0 15px;
+}
+
+.main-header nav ul li:hover{
+    color: white;
+    cursor: pointer;
+}

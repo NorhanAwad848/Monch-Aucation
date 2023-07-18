@@ -1,0 +1,94 @@
+.users-view-container {
+    max-height: inherit;
+    background-color: #0a0a0a;
+    border-radius: 0.375rem;
+    border: 2px solid rgba(248, 240, 240, 0.2);
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+    color: #eeb20f;
+}
+
+.users-table-container {
+    max-height: 90%;
+    overflow-y: scroll;
+}
+
+.users-table {
+    border: 2px solid rgba(244, 240, 240, 0.2);
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 0.375rem;
+}
+
+.users-table thead td{
+    position: sticky;
+    top: 0;
+    background-color: #0a0a0a;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(3, 104, 50);
+}
+
+.users-table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #0a0a0a;
+    color: rgb(242, 244, 242);
+}
+
+.users-table a {
+    text-decoration: none;
+    color: rgb(70, 233, 162);
+}
+
+.users-table p {
+    margin: 0;
+}
+
+.user-card {
+    text-decoration: none;
+    color: black;
+}
+
+.user-auctions::after {
+    content: " auctions";
+}
+
+.user-card:hover td{
+    background-color: #eeb20f;
+}
+
+.user-update-message {
+    background-color:rgba(117, 254, 54, 0.635);
+    border-radius: 0.375rem;
+    color: black;
+    font-weight: bold;
+
+    position: fixed;
+    left: 50%;
+    z-index: 1;
+}
+
+.user-update-message p {
+    margin: 12px;
+}
+
+.users-view-container td button:nth-child(2) {
+    background-color:orangered;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.users-view-container td button:nth-child(1) {
+    background-color: seagreen;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}

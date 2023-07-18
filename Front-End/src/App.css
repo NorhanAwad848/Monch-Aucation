@@ -1,0 +1,38 @@
+/*============ Main Css =======*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',  sans-serif;
+   
+    
+  }
+  body{
+    background-color: #020222;
+  }
+  .background{
+    background: #020222;
+  }
+  
+  
+  /*===========Media queries(max-width:1100px) ========*/
+  @media screen and(max-width:900px){
+    header .nav-bar{
+      padding: 0 50px;
+    }
+    section{
+      padding: 30px 50px;
+      font-size:0.9em;
+    }
+  }
+  /*=======Media queries(max-width: px)========*/
+  @media screen and (max-width: 850px){
+    header .nav-bar{
+      padding: 0 20px;
+    }
+    section{
+      padding: 30px 20px;
+      font-size: 0.8em;
+    }
+  } 
+  

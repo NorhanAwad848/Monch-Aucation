@@ -1,0 +1,86 @@
+.Cart-Container{
+    width: 70%;
+    height: 85%;
+    margin-left: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+   }
+   .Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .Heading{
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #ffffff;
+   }
+.Heading:hover{
+  color: goldenrod;
+}
+   .Cart-Items{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .image-box{
+    width: 20%;
+    text-align:center;
+   }
+   .image-box2{
+    padding-left: 10px;
+    padding-top: 10px;
+    width:150%;
+   }
+   .about{
+    height: 100%;
+    position: relative;
+    
+
+   }
+   .title{
+    padding-top: 5px;
+   padding-right:500px;
+    font-size: 26px;
+    font-family:'open sans';
+    font-weight: 800;
+    color: #193464;
+   }
+   .subtitle{
+    line-height: 8px;
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #909090;
+   }
+   .prices{
+    height: 90%;
+    text-align: right;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: 'open sans';
+    font-weight: 800;
+    color: #193464;
+   }
+ 
+   hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    border: 0;
+    box-shadow: inset 0 3px 3px -3px rgb(132, 159, 175);
+  }
+
+  body{
+    background: #020222;
+  }

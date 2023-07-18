@@ -1,0 +1,59 @@
+.users-view-container {
+    max-height: inherit;
+    background-color: white;
+    border-radius: 0.375rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.users-table-container {
+    max-height: 90%;
+    overflow-y: scroll;
+}
+
+.users-table {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 0.375rem;
+}
+
+.users-table thead td{
+    position: sticky;
+    top: 0;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.users-table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.users-table a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.users-table p {
+    margin: 0;
+}
+
+.user-card {
+    text-decoration: none;
+    color: black;
+}
+
+.user-auctions::after {
+    content: " auctions";
+}
+
+.user-card:hover td{
+    background-color: #f1f1f1;
+}
